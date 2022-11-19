@@ -42,7 +42,7 @@ class ProficienciesTest extends TestCase
             'name',
             'classes',
             'races',
-            'references'
+            'reference'
         ];
         $model = new Proficiencies();
         $item = $model->alchemists_supplies();
